@@ -17,17 +17,90 @@
       </nav>
     </header>
     <main class="container">
-      <figure class="grid-item1"><img src="./img/img1.jpg" alt="imganime"></figure>
-      <figure class="grid-item2"><img src="./img/img2.jpg" alt="imganime"></figure>
-      <figure class="grid-item3"><img src="./img/img3.jpg" alt="imganime"></figure>
-      <figure class="grid-item4"><img src="./img/img4.jpg" alt="imganime"></figure>
-      <figure class="grid-item5"><img src="./img/img5.jpg" alt="imganime"></figure>
-      <figure class="grid-item6"><img src="./img/img6.jpg" alt="imganime"></figure>
-      <figure class="grid-item7"><img src="./img/img7.jpg" alt="imganime"></figure>
-      <figure class="grid-item8"><img src="./img/img8.jpg" alt="imganime"></figure>
-      <figure class="grid-item9"><img src="./img/img9.jpg" alt="imganime"></figure>
-      <figure class="grid-item10"><img src="./img/img10.jpg" alt="imganime"></figure>
-      <figure class="grid-item11"><img src="./img/img11.gif" alt="imganime"></figure>
+      <figure class="grid-item1">
+        <img
+          src="./img/img1.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img1.jpg')" class="square"
+        />
+      </figure>
+      <figure class="grid-item2">
+        <img
+          src="./img/img2.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img2.jpg')" class="square"
+        />
+      </figure>
+      <figure class="grid-item3">
+        <img
+          src="./img/img3.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img3.jpg')"
+        />
+      </figure>
+      <figure class="grid-item4">
+        <img
+          src="./img/img4.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img4.jpg')"
+        />
+      </figure>
+      <figure class="grid-item5">
+        <img
+          src="./img/img5.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img5.jpg')"
+        />
+      </figure>
+      <figure class="grid-item6">
+        <img
+          src="./img/img6.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img6.jpg')" class="square"
+        />
+      </figure>
+      <figure class="grid-item7">
+        <img
+          src="./img/img7.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img7.jpg')" class="square"
+        />
+      </figure>
+      <figure class="grid-item8">
+        <img
+          src="./img/img8.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img8.jpg')"
+        />
+      </figure>
+      <figure class="grid-item9">
+        <img
+          src="./img/img9.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img9.jpg')"
+        />
+      </figure>
+      <figure class="grid-item10">
+        <img
+          src="./img/img10.jpg"
+          alt="imganime"
+          onclick="openModal('./img/img10.jpg')"
+        />
+      </figure>
+      <figure class="grid-item11">
+        <img
+          src="./img/img11.gif"
+          alt="imganime"
+          onclick="openModal('./img/img11.gif')" class="square"
+        />
+      </figure>
     </main>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img src="" alt="Popup Image" id="modal-image" class="modal-content" />
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
