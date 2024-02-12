@@ -15,3 +15,6 @@ function closeModal() {
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
 }
+function login(){
+  alert('Not yet available on our website. Please come back and log in again after 2060.');
+}
