@@ -1,14 +1,13 @@
-/* For laptops */
+/* For laptops or destop*/ 
 @media only screen and (min-width: 1025px) {
-  /* Styles for laptops */
   .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 5vh;
     margin-top: 30px;
-    gap: 30px; /* Space between grid items */
+    gap: 30px; 
     padding: 20px;
-    overflow: hidden; /* Padding around the grid container */
+    overflow: hidden; 
   }
   .grid-item1 {
     grid-column-start: 1;
@@ -69,18 +68,17 @@
 
 /* For tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Styles for tablets */
   .search-input {
-    width: 60%; /* Adjusted width for iPad Air 4 */
+    width: 60%; 
   }
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 5vh;
     margin-top: 30px;
-    gap: 30px; /* Space between grid items */
+    gap: 30px;
     padding: 20px;
-    overflow: hidden; /* Padding around the grid container */
+    overflow: hidden;
   }
   .grid-item1 {
     grid-column-start: 1;
@@ -141,18 +139,17 @@
 
 /* For phones */
 @media only screen and (max-width: 767px) {
-  /* Styles for phones */
   .search-input {
-    width: 90%; /* Adjusted width for phones */
+    width: 90%; 
   }
   .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: auto;
     margin-top: 30px;
-    gap: 30px; /* Space between grid items */
+    gap: 30px; 
     padding: 20px;
-    overflow: hidden; /* Padding around the grid container */
+    overflow: hidden;
   }
 }
 
@@ -180,14 +177,14 @@ nav {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  margin-right: 20px; /* Default margin */
+  margin-right: 20px; 
 }
 
 .navbar-search {
   flex-grow: 1;
   display: flex;
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .search-input {
@@ -205,13 +202,12 @@ nav {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 20px; /* Default margin */
+  margin-left: 20px;
 }
 
 figure {
   width: 100%;
   height: 100%;
-  /* Ensures that the border radius is applied to the image */
 }
 img {
   width: 100%;
@@ -233,7 +229,7 @@ img:hover {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
-  text-align: center; /* Center the content horizontally */
+  text-align: center; 
 }
 
 .modal-content {
@@ -247,8 +243,8 @@ img:hover {
 .modal-content img {
   max-width: 100%;
   max-height: 100%;
-  display: block; /* Ensure the image is centered within the modal */
-  margin: auto; /* Center the image vertically */
+  display: block; 
+  margin: auto; 
   margin-top: 0px;
 }
 
